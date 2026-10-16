@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="apps.css"  >
+      <script defer src="apps.js"></script>
+    <title>WanderNest | Collect moments, not just miles</title>
+</head>
+<body>
+<div>
+<div class="header"> 
+
+<div class="hb">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+    <div class="leftDiv">
+        <img class="logo" src="logoImg.jpg" alt="WanderNest logo">
+        <h2>WanderNest</h2>
+    </div>
+    <div class="rightDiv">
+       <ul class="navLinks">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="destination.html">Destinations</a></li>
+         <li><a href="#section--3">About</a></li>
+         <li><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    </div>
+
+</div>
+<div class="slider">
+ <img class="slide"  src="img1.jpg"   alt="Travel destination 1">
+    <img class="slide" src="img2.jpg" alt="Travel destination 2">
+    <img class="slide" src="img3.jpg" alt="Travel destination 3">
+    <img class="slide" src="img4.jpg" alt="Travel destination 4">
+    <img class="slide" src="img5.jpg" alt="Travel destination 5">
+
+    <button type="button" class="slider__btn--right" > → </button>
+    <button type="button" class="slider__btn--left"> ← </button>
+    <div class="dots"></div>
+    
+</div>
+<div class="aboutUs" id="section--3"> 
+    <div class="aboutImg">
+        <img src="ABImg.jpg" alt="Beautiful travel destination surrounded by nature">
+    </div>
+
+    <div class="aboutCont">
+     <span class="aboutLabel">About WanderNest</span>
+
+     <h2>Discover the world, <span>One Journey at a time</span></h2>
+
+     <p>Welcome to WanderNest, your little corner of inspiration for
+        exploring the world. We believe that every journey has a story
+        to tell and every destination holds a new adventure waiting to
+        be discovered.</p>
+
+         <p>
+            From breathtaking landscapes and peaceful getaways to vibrant
+            cities and hidden gems, we are here to help you find places
+            that make your travels truly unforgettable.
+        </p>
+
+        <p>
+            Our mission is to inspire you to explore more, create beautiful
+            memories, and collect moments that last a lifetime.
+        </p>
+
+        <a href="destination" class="aboutBtn">Explore Destinations →</a>
+    </div>
+
+
+</div>
+
+
+<!-- tab component -->
+ <!--  -->
+
+<div class="packages">
+
+<section class="indiaDestionations">
+    <div class="destHeading">
+        <span class="sectionLabel">EXPLORE INDIA</span>
+        <h2>Find Your Perfect <span>Getway</span> </h2>
+        <p>
+            From majestic mountains to sunny beaches and vibrant cities,
+            discover the beauty of India with WanderNest.
+        </p>
+
+    </div>
+</section>
+
+<div class="destinationTab">
+
+    <button class="tabBtn " type="button" 
+    role="tab"  data-tab="1"  >
+     🏔️ Mountains
+    </button>
+
+    <button class="tabBtn"  type="button"
+    role="tab" data-tab="2">
+    🏖️ Beaches
+    </button>
+
+    <button class="tabBtn"  type="button"
+    role="tab" data-tab="3"> 
+    🏙️ Cities
+    </button>
+</div>
+<div class="destinationGrid">
+   <article class="destination-card operations__content--1 operations__content--active"  >
+    <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=800&q=80" 
+    alt="Snow-covered mountains in Himachal Pradesh">
+    <div class="card-info">
+    <span class="location">Himachal Pradesh</span>
+    <h2>Manali</h2>
+    <p>Mountain air and unforgettable views.</p>
+    <a href="#manali">Explore destination ↗</a>
+
+    </div>
+   </article>
+
+   <article class="destination-card operations__content--1 operations__content--active">
+    <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+          alt="Himalayan mountain landscape">
+    <div class="card-info">
+    <span class="location">Uttarakhand</span>
+    <h2>Rishikesh</h2>
+    <p>Riverside calm and Himalayan escapes.</p>
+    <a href="#rishikesh">Explore destination ↗</a>
+
+    </div>
+  </article>
+
+   <article class="destination-card operations__content--1 operations__content--active" >
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+          alt="Beautiful natural mountain scenery">
+        <div class="card-info">
+          <span class="location">HIMACHAL PRADESH</span>
+          <h2>Spiti Valley</h2>
+          <p>Raw landscapes and quiet mountain roads.</p>
+          <a href="#spiti">Explore destination ↗</a>
+        </div>
+      </article>
+
+      <article class="destination-card operations__content--2 ">
+        <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80"
+          alt="Beach in Goa">
+        <div class="card-info">
+          <span class="location">GOA</span>
+          <h2>Goa</h2>
+          <p>Golden sands and pastel sunsets.</p>
+          <a href="#goa">Explore destination ↗</a>
+        </div>
+      </article>
+
+      <article class="destination-card operations__content--2">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+          alt="Blue sea and sandy beach">
+        <div class="card-info">
+          <span class="location">KERALA</span>
+          <h2>Varkala</h2>
+          <p>Cliffside cafés and peaceful sea views.</p>
+          <a href="#varkala">Explore destination ↗</a>
+        </div>
+      </article>
+
+      <article class="destination-card operations__content--3" >
+        <img src="https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&w=800&q=80"
+          alt="Jaipur city architecture">
+        <div class="card-info">
+          <span class="location">RAJASTHAN</span>
+          <h2>Jaipur</h2>
+          <p>Pink streets, royal palaces and culture.</p>
+          <a href="#jaipur">Explore destination ↗</a>
+        </div>
+      </article>
+
+      <article class="destination-card operations__content--3" >
+        <img src="https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80"
+          alt="Mumbai city skyline">
+        <div class="card-info">
+          <span class="location">MAHARASHTRA</span>
+          <h2>Mumbai</h2>
+          <p>City lights, sea breeze and street food.</p>
+          <a href="#mumbai">Explore destination ↗</a>
+        </div>
+      </article>
+
+      </div>
+
+
+</div>
+
+
+
+      
+
+
+
+
+
+
+
+
+
+<div class="Review_slider">
+
+    <div class = "innerDiv"> <img src = "Simg1.jpg" alt="" > </div>
+    <div class = "innerDiv"> <img src = "Simg2.jpg" alt=""> </div>
+    <div class = "innerDiv"> <img src = "Simg3.jpg" alt=""> </div>
+    <div class = "innerDiv"> <img src = "Simg4.jpg" alt=""> </div>
+    <div class = "innerDiv"> <img src = "Simg5.jpg" alt="">  </div>
+
+    
+</div>
+<div class="footer">
+    <div> 
+        <h2>WanderNest</h2>
+        <p>Discover beautiful destinations, create unforgettable memories, and let every
+                journey tell a story.</p>
+    </div>
+    <div>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Explore</h3>
+            <ul>
+                <li><a href="destination.html">Popular Places</a></li>
+                <li><a href="destination.html">Travel Guides</a></li>
+                <li><a href="destination.html">Hidden Gems</a></li>
+            </ul>
+            </div>
+
+             <div>
+            <h3>Follow Our Journey</h3>
+            <p>Find inspiration for your next adventure.</p>
+            <p>
+                <a href="https://www.instagram.com/">Instagram</a> |
+                <a href="https://www.pinterest.com/">Pinterest</a>
+            </p>
+        </div>
+
+</div>
+   <div class="footerBottom">
+        <p>© 2026 WanderNest. All rights reserved.</p>
+        <p class="tagline">
+            Collect moments, not just miles ♡
+        </p>
+    </div>
+
+</div>
+
+
+
+
+
+</body>
+</html>
