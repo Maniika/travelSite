@@ -507,15 +507,31 @@ box-sizing: border-box;
 
 }
 
+.tabBtn{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    color: #393737;
+    font-weight: bolder;
+    border: solid 1.5px #5e88b2;
+    background-color: rgb(175, 204, 239);
+    transition: all 0.2s ease;
+ 
+
+}
+
 .tabBtn:hover{
-    background: #eaf4ff;
+    background:  #f3bed5;
+    color: #f0f3f5;
+    transform: translateY(1.5px);
+
    
 
 }
 
 .tabBtn:active{
     background:#dcecff;
-    color: #28588c;
+    color: #587696;
     border-color: #bfd9fa;
     box-shadow: 0 5px 15px rgba(87, 139, 196, 0.12);
 }
